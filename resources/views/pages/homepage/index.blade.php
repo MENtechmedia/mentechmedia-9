@@ -8,4 +8,14 @@
 
 @section('content')
     @include('pages.homepage.sections.banner')
+
+    {{--Technieken / Frameworks--}}
+    <div class="container mx-auto hidden md:block">
+        <div class="row">
+
+        </div>
+    </div>
+
+    @include('pages.homepage.sections.onze-werkwijze')
+
 @endsection

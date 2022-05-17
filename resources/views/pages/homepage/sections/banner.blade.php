@@ -1,6 +1,6 @@
 <div class="mt-10 md:my-10 lg:my-0">
     <div class="container relative mx-auto sm:mb-20">
-        <div class="flex relative items-center">
+        <div class="flex items-center">
             <div class="mt-20 text-center col-xs-12 md:text-left md:mt-0">
 
 {{--                Main page title--}}
@@ -41,49 +41,9 @@
 
                 </div>
 
-            <div class="absolute z-0 md:relative col-xs-11 col-sm-12 col-md-5 col-lg-6">
+            <div class="absolute z-0 md:relative col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="opacity-25">
                     @component('components.lib.img.img', ['src' => '/assets/images/illustrations/space-banner.png']) @endcomponent
-                </div>
-            </div>
-        </div>
-    </div>
-
-{{--    --}}{{--Technieken / Frameworks ONLY ON MOBILE SCREENS--}}
-    <div class="container mx-auto md:hidden">
-        <div class="row">
-            <div class="flex justify-between items-end mt-20 col-xs-12 col-sm-12 col-md-12 col-lg-12 md:justify-center">
-                Laravel
-                <div class="flex flex-col justify-center items-center md:px-8">
-                    <div class="mb-2 w-12">
-                        @component('components.lib.img.img', ['src' => '/assets/images/logos/laravel.png']) @endcomponent
-                    </div>
-                    @component('components.lib.text.text')
-                        Laravel
-                        @slot('classString') font-bold @endslot
-                    @endcomponent
-                </div>
-
-                {{--Flutter--}}
-                <div class="flex flex-col justify-center items-center md:px-8">
-                    <div class="mb-2 w-12">
-                        @component('components.lib.img.img', ['src' => '/assets/images/logos/flutter.png']) @endcomponent
-                    </div>
-                    @component('components.lib.text.text')
-                        Flutter
-                        @slot('classString') font-bold @endslot
-                    @endcomponent
-                </div>
-
-                {{--Vuejs--}}
-                <div class="flex flex-col justify-center items-center md:px-8">
-                    <div class="mb-2 w-12">
-                        @component('components.lib.img.img', ['src' => '/assets/images/logos/vuejs.png']) @endcomponent
-                    </div>
-                    @component('components.lib.text.text')
-                        VueJs
-                        @slot('classString') font-bold @endslot
-                    @endcomponent
                 </div>
             </div>
         </div>
