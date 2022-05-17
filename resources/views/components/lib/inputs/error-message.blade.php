@@ -1,0 +1,1 @@
+<span  class="block bg-red-500 text-white px-4 py-1 text-xs rounded-b mb-2"> {{ $message }}</span>

@@ -1,0 +1,1 @@
+<link href="{{ mix('/css/app.css') }}" type="text/css" rel="stylesheet"/>

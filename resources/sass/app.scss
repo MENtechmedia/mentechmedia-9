@@ -1,0 +1,29 @@
+@import "components/bootstrap-columns.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "custom.scss";
+@import "xs-custom.scss";
+@import "sm-custom.scss";
+@import "md-custom.scss";
+@import "lg-custom.scss";
+@import "xl-custom.scss";
+
+body, p {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import "Utilities/utilities.scss";
+
+
+/* LIBRARIES */
+
+/* purgecss start ignore */
+@import "./imports/toastr.scss";
+/* purgecss end ignore */
